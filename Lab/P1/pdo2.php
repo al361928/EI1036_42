@@ -2,13 +2,13 @@
         header('Content-Type: application/json');
 
 /** The name of the database */
-define('DB_NAME', 'ei1036_42');
+define('DB_NAME', 'al361928_ei1036_42');
 
 /** MySQL database username */
-define('DB_USER', '*****');
+define('DB_USER', 'al361928');
 
 /** MySQL database password */
-define('DB_PASSWORD', '*****');
+define('DB_PASSWORD', 'lorenzoeric');
 
 /** MySQL hostname */
 define('DB_HOST', 'db-aules.uji.es' );

@@ -1,13 +1,13 @@
 <?php
 
 /** The name of the database  */
-define('DB_NAME', '***');
+define('DB_NAME', 'al361928_ei1036_42');
 
 /** Fatabase username */
-define('DB_USER', '***');
+define('DB_USER', 'al361928');
 
 /** Database password */
-define('DB_PASSWORD', '***');
+define('DB_PASSWORD', 'lorenzoeric');
 
 /** Database hostname */
 define('DB_HOST', "db-aules.uji.es");
@@ -32,7 +32,7 @@ function ejecutarSQL($query,$valor) {
 	catch (PDOException $e) {
 		echo "Failed to get DB handle: " . $e->getMessage() . "\n";
 		echo $query."\n";
-		retun -1;
+		return -1;
 	}
 	return ($consult->fetchAll(PDO::FETCH_ASSOC)); 
 						  
