@@ -51,16 +51,16 @@ switch ($action) {
         $central = table2html("t_productos"); //tabla productos
         break;
     case "registrar_producto":
-        $central = "<p>Todavia no puedo registrar productos</p>"; //formulario producto
+        $central = "/partials/registro_producto.php";; //formulario producto
         break;
     case "insertar_producto":
-        $central = "<p>Todavía no puedo insertar productos en la BD</p>"; //tabla productos
+        $central = registrar_producto("t_productos"); //tabla productos
         break;
     case "ver_cesta":
-        $central = "<p>Todavia no puedo ver la cesta</p>"; //cesta en $_SESSION["cesta"]
+        $central = "/partials/viewCart.php"; //cesta en $_SESSION["cesta"]
         break;
     case "encestar":
-        $central = "<p>Todavía no puedo añadir a la cesta</p>"; //tabla compras
+        $central = "/partials/cartAction.php"; //tabla compras
         break;
     case "realizar_compra":
         $central = "<p>Todavía no puedo añadir a la cesta</p>"; //cesta en $_SESSION["cesta"]
