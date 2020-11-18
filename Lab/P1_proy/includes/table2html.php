@@ -18,6 +18,8 @@ function table2html($table)
             print "<tr>";
             foreach ($row as $key => $val) {
                 echo "<td>", $val, "</td>";
+                
+
             }
             print "</tr>";
         }
