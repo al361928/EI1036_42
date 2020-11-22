@@ -1,6 +1,7 @@
 <main>
 	<h1>Datos de registro: </h1>
-	<form class="form_usuario" action="?action=insertar_usuario" method="POST">
+	<h2 id="errores"> </h2>
+	<form id="form_usuario" class="form_usuario" action="?action=insertar_usuario" method="POST">
 
 		<legend>Datos básicos</legend>
 		<label for="email">Email</label>
