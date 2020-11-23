@@ -14,7 +14,7 @@ document.addEventListener("DOMContentLoaded", function() {
       alert('La clave no es válida');
       return;
     }
-    var clave = document.getElementById('photo').value;
+    var clave = document.getElementById('foto').value;
     if (clave.files[0].size < 2000) {
       alert('La imagen tiene que ser menor de 2MB');
       return;

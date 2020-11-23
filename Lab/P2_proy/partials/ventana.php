@@ -1,4 +1,4 @@
-<div class="container">
+<div class="container" id="caja">
     <form action="?action=upload" method="post" enctype="multipart/form-data">
    
     Selecciona una imagen:

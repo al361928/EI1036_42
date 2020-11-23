@@ -23,11 +23,12 @@
 
 		<label for="foto">Foto</label>
 		<br/>
-		 <a href="?action=subir_foto">Subir foto</a>
+		 <button onclick="js/caja.js">Subir foto</button>
 		<br/>
 
 		<p><input type="submit" value="Enviar">
 		<input type="reset" value="Deshacer">
 		</p>
 	</form>
+
 </main>
