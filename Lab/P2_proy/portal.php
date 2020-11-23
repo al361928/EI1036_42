@@ -71,6 +71,8 @@ switch ($action) {
     case "subir_foto":
         $central = "/partials/ventana.php";
         break;
+    case "cerrar_session":
+        session_destroy();
     default:
         $data["error"] = "Accion No permitida";
         $central = "/partials/centro.php";
