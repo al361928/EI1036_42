@@ -7,7 +7,7 @@
 			<a href="?action=listar_productos">Productos</a>
 		</li>
 		<?php 
-		
+		 echo "<td> <a href='?action=registrar_producto' class=\"btn btn-success\">Añadir producto</a> </td>";
 		 if (!isset($_SESSION['usuario'])){
 			echo '<li><a href="?action=login">Autentificar</a></li>';
 			echo '<li><a href="?action=registrar_usuario">Registrarme</a></li>';

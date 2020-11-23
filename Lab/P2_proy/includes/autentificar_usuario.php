@@ -11,7 +11,7 @@ function autentificar_usuario()
     $_SESSION["usuario"] = role
     */
 
-    $query = "SELECT * From t_clientes;";
+    $query = "SELECT * From t_clientes";
     $clientes = $pdo->query($query)->fetchAll(\PDO::FETCH_ASSOC);
     $email=$_POST["email"];
     $pass=$_POST["passwd"];
@@ -27,7 +27,6 @@ function autentificar_usuario()
         }
 
     }
-    echo"<h1>usuario no registrado</h1>";
 }
 
 ?>

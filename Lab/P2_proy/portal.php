@@ -27,6 +27,7 @@ include(dirname(__FILE__)."/includes/autentificar_usuario.php");
 
 include(dirname(__FILE__)."/partials/verCesta.php");
 include(dirname(__FILE__)."/partials/cartAction.php");
+//include(dirname(__FILE__)."/partials/ventana.php");
 
 if (isset($_REQUEST['action'])) $action = $_REQUEST["action"];
 else $action = "home";
@@ -66,6 +67,9 @@ switch ($action) {
         break;
     case "realizar_compra":
         $central = "<p>Todavía no puedo añadir a la cesta</p>"; //cesta en $_SESSION["cesta"]
+        break;
+    case "subir_foto":
+        $central = "/partials/ventana.php";
         break;
     default:
         $data["error"] = "Accion No permitida";

@@ -1,6 +1,6 @@
 <main>
 	<h1>Gestion de Usuarios </h1>
-	<form class="form_usuario" action="./portal.php?action=do_login" method="POST">
+	<form class="form_usuario" action="./portal.php?action=autentificar_usuario" method="POST">
 		<fieldset>
 			<legend>Datos básicos</legend>
 			<label for="email">Nombre</label>
