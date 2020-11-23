@@ -67,6 +67,8 @@ switch ($action) {
     case "realizar_compra":
         $central = "<p>Todavía no puedo añadir a la cesta</p>"; //cesta en $_SESSION["cesta"]
         break;
+    case "cerrar_session":
+        session_destroy();
     default:
         $data["error"] = "Accion No permitida";
         $central = "/partials/centro.php";
