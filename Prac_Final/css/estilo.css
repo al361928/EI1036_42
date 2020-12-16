@@ -145,3 +145,9 @@ section#blog {
     border-color: #000;
 
 }
+
+.carrito {
+    float: right;
+    border-style: solid;
+    display: none;    
+}

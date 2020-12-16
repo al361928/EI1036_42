@@ -11,4 +11,5 @@
 </footer>
 </body>
 <script src="./js/caja.js"></script>
+<script src="./js/carrito.js"></script>
 </html>

@@ -34,7 +34,7 @@ function table2html($table)
             }
             //$cliente=$_SESSION["id_user"];
             $id=$row["id_producto"];
-            echo "<td> <a href='?action=encestar&client_id=5&product=$id' class=\"btn btn-success\">Añadir a la cesta</a> </td>";
+            echo "<td> <a  onclick=\"añadirAlCarrito( $id)\" class=\"btn btn-success\">Añadir a la cesta</a> </td>";
             print "</tr>";
             $i = $i+1;
         }
